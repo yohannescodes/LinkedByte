@@ -11,9 +11,9 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		8CB59C162DF7A31C00F9A0BE /* Apple Intelligence Chat */ = {
+		8CB59C162DF7A31C00F9A0BE /* LinkedByte */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Apple Intelligence Chat";
+			path = LinkedByte;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		8CB59C0B2DF7A31C00F9A0BE = {
 			isa = PBXGroup;
 			children = (
-				8CB59C162DF7A31C00F9A0BE /* Apple Intelligence Chat */,
+				8CB59C162DF7A31C00F9A0BE /* LinkedByte */,
 				8CB59C152DF7A31C00F9A0BE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +61,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				8CB59C162DF7A31C00F9A0BE /* Apple Intelligence Chat */,
+				8CB59C162DF7A31C00F9A0BE /* LinkedByte */,
 			);
 			name = "Apple Intelligence Chat";
 			packageProductDependencies = (
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8CB59C0F2DF7A31C00F9A0BE /* Build configuration list for PBXProject "Apple Intelligence Chat" */;
+			buildConfigurationList = 8CB59C0F2DF7A31C00F9A0BE /* Build configuration list for PBXProject "LinkedByte" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -246,10 +246,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UGUGD93N65;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = LinkedByte;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -265,7 +267,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.intelligencetest.Apple-Intelligence-Chat";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yohannescodes.linkedbyte;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -287,10 +289,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UGUGD93N65;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = LinkedByte;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -306,7 +310,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.intelligencetest.Apple-Intelligence-Chat";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yohannescodes.linkedbyte;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -324,7 +328,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8CB59C0F2DF7A31C00F9A0BE /* Build configuration list for PBXProject "Apple Intelligence Chat" */ = {
+		8CB59C0F2DF7A31C00F9A0BE /* Build configuration list for PBXProject "LinkedByte" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8CB59C1D2DF7A31D00F9A0BE /* Debug */,

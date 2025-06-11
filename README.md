@@ -55,10 +55,11 @@ See LinkedByte in action:
 
 ---
 
-Let me know if you want to:
+## 📨 Contact Me
 
-* Add a `TestFlight` or `App Store` badge
-* Include contribution guidelines or a license
-* Add CI badges or Swift/iOS version badges
+**X**(https://x.com/IBYohannes)
+**Portfolio**(https://www.yohannescodes.com)
 
-I'm happy to help with those too.
+
+
+

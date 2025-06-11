@@ -57,8 +57,8 @@ See LinkedByte in action:
 
 ## 📨 Contact Me
 
-**X**(https://x.com/IBYohannes)
-**Portfolio**(https://www.yohannescodes.com)
+[X](https://x.com/IBYohannes) |
+[Portfolio](https://www.yohannescodes.com)
 
 
 

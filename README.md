@@ -1,57 +1,30 @@
-# Apple Intelligence Chat
+# LinkedByte - Influence your way.
 
-A SwiftUI app that allows you to chat with Apple Intelligence using the new [Foundation Models Framework](https://developer.apple.com/documentation/foundationmodels) and Liquid Glass UI on iOS 26+.
-
-![image](https://github.com/user-attachments/assets/6305de96-2c6a-4eaa-99ff-a923ad6be368)
+LinkedByte is an intelligent iOS application designed to empower your professional presence on LinkedIn. It features a sleek chat interface powered by advanced AI to generate fresh and engaging LinkedIn post ideas every morning. With timely notifications before your workday begins, LinkedByte ensures you never miss an opportunity to share your daily dose of insightful content.
 
 ## Features
 
-- **Offline AI Chat**: Chat with the Apple Intelligence model directly on device
-- **Streaming Responses**: Real-time streaming text generation with haptic feedback
-- **Modern Glass UI**: Liquid Glass UI design with interactive glass effects
-- **Customizable Settings**: Adjust temperature, system instructions, and streaming preferences
+  - **AI-Powered Content Generation:** Leverages a powerful chat interface to create compelling LinkedIn posts tailored to your professional brand.
+  - **Daily Post Ideas:** Receive a new post idea every morning to maintain a consistent and influential presence on LinkedIn.
+  - **Scheduled Notifications:** Get your daily post suggestion delivered via notification right before your 9-to-5, making it easy to post on time.
+  - **Customizable Experience:** Adjust settings like the generation temperature and notification times to fit your personal preferences.
 
-## Requirements
+## Screenshots
 
-- iOS/iPadOS/MacOS 26.0+
-- Device with Apple Intelligence support
-- Xcode 26.0 beta or newer
+\<div style="display: flex; flex-direction: row; justify-content: space-between;"\>
+\<img src="[https://storage.googleapis.com/maker-ai-images/uploads/2025-06-11/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20Max%20-%202025-06-11%20at%2008.17.18.jpg](https://storage.googleapis.com/maker-ai-images/uploads/2025-06-11/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20Max%20-%202025-06-11%20at%2008.17.18.jpg)" alt="Chat Interface" width="30%"\>
+\<img src="[https://storage.googleapis.com/maker-ai-images/uploads/2025-06-11/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20Max%20-%202025-06-11%20at%2008.17.33.jpg](https://storage.googleapis.com/maker-ai-images/uploads/2025-06-11/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20Max%20-%202025-06-11%20at%2008.17.33.jpg)" alt="Generated Post" width="30%"\>
+\<img src="[https://storage.googleapis.com/maker-ai-images/uploads/2025-06-11/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20Max%20-%202025-06-11%20at%2008.19.05.jpg](https://storage.googleapis.com/maker-ai-images/uploads/2025-06-11/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20Max%20-%202025-06-11%20at%2008.19.05.jpg)" alt="Settings" width="30%"\>
+\</div\>
 
-## Installation
+## Technology Stack
 
-1. Clone the repository:
+LinkedByte is built with the latest technologies to deliver a seamless and intelligent user experience:
 
-```bash
-git clone https://github.com/PallavAg/Apple-Intelligence-Chat.git
-```
-
-2. Open the project in Xcode:
-
-```bash
-cd Apple-Intelligence-Chat
-open "Apple Intelligence Chat.xcodeproj"
-```
-
-3. Select a development team, then run on a compatible device or simulator
-
-## Usage
-
-1. Ensure Apple Intelligence is enabled in Settings
-2. Launch the app
-3. Start chatting with the AI assistant
-4. Customize behavior in Settings:
-   - Toggle streaming responses
-   - Adjust temperature (0.0 - 2.0)
-   - Modify system instructions
-
-## License
-
-This project is available under the [MIT License](LICENSE).
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## Acknowledgments
-
-Built with Apple's Foundation Models Framework and Liquid Glass UI for iOS 26.
+  - **Swift:** The core programming language used for developing the application, ensuring robustness and performance.
+  - **SwiftUI:** Utilized for building the modern and declarative user interface.
+  - **Foundation Models:** Integrated to power the intelligent chat and content generation features.
+  - **Combine:** Employed for handling asynchronous events and data flows within the app.
+  - **Xcode 26:** The project is developed using the latest version of Apple's integrated development environment.
+  - **iOS 26:** Targeting the latest version of iOS to take advantage of new features and capabilities.
+  - **ChatGPT Xcode Intelligence:** Leveraged for enhanced development and AI-powered assistance within Xcode.

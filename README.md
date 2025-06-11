@@ -1,6 +1,6 @@
 # **LinkedByte — Influence Your Way**
 
-**LinkedByte** is an intelligent iOS application designed to elevate your professional presence on LinkedIn. With a sleek chat interface powered by advanced AI, it generates fresh and engaging post ideas every morning. Timely notifications ensure you never miss the perfect opportunity to share your insights with your network — just before your workday begins.
+**LinkedByte** is an intelligent iOS application designed to elevate your professional presence on LinkedIn. With a sleek chat interface powered by advanced AI, it delivers fresh and engaging post ideas every morning. Timely notifications ensure you never miss the perfect opportunity to share your insights — right before your workday begins.
 
 ---
 
@@ -10,13 +10,13 @@
   Engaging, brand-aligned LinkedIn posts crafted by an intuitive chat interface.
 
 * **📅 Daily Post Ideas**
-  Stay consistent — get a unique idea every morning to keep your content game strong.
+  Stay consistent — receive a unique prompt every morning to keep your content game strong.
 
 * **🔔 Scheduled Notifications**
-  Never forget to post — receive timely nudges right before your 9-to-5.
+  Get timely nudges before your 9-to-5 to post with confidence and ease.
 
 * **⚙️ Customizable Experience**
-  Tune generation creativity (`temperature`) and adjust notification timings to your preference.
+  Fine-tune generation creativity (`temperature`) and personalize your notification schedule.
 
 ---
 
@@ -25,29 +25,40 @@
 See LinkedByte in action:
 
 <p float="left" align="center">
-  <img src="https://github.com/user-attachments/assets/98e650cb-237e-48db-9805-6a18cdf44a86" alt="Chat Interface" width="30%" />
-  <img src="https://github.com/user-attachments/assets/f65b6cfb-b024-4047-af59-be091224fafe" alt="Generated Post" width="30%" />
-  <img src="https://github.com/user-attachments/assets/3936e013-9257-4fef-bdd4-773598314df4" alt="Settings Screen" width="30%" />
+  <img src="https://github.com/user-attachments/assets/98e650cb-237e-48db-9805-6a18cdf44a86" alt="Chat Interface" width="22%" />
+  <img src="https://github.com/user-attachments/assets/cd4dbe2a-cfac-45c9-b370-0bf44b307b01" alt="Generated Post" width="22%" />
+  <img src="https://github.com/user-attachments/assets/f65b6cfb-b024-4047-af59-be091224fafe" alt="Settings Screen" width="22%" />
+  <img src="https://github.com/user-attachments/assets/3936e013-9257-4fef-bdd4-773598314df4" alt="Notification Center" width="22%" />
 </p>
 
-> 📝 **Note:** These images are hosted via GitHub user-attachments. If you later move them into your repo (e.g. `Assets/Screenshots/`), replace the URLs accordingly.
+> 📝 **Note:** Screenshots are hosted via GitHub user-attachments. If you move them to your repo (e.g., `Assets/Screenshots/`), update the `src` paths accordingly.
 
 ---
 
 ## 🧰 Technology Stack
 
-| Technology                     | Purpose                                                        |
-| ------------------------------ | -------------------------------------------------------------- |
-| **Swift**                      | Core programming language for high performance and stability   |
-| **SwiftUI**                    | Declarative UI framework for building modern interfaces        |
-| **Foundation Models**          | Powers intelligent chat and content generation                 |
-| **Combine**                    | Manages asynchronous data flows and reactive events            |
-| **Xcode 26**                   | Developed with the latest Apple IDE                            |
-| **iOS 26**                     | Targets the newest iOS version to leverage system capabilities |
-| **ChatGPT Xcode Intelligence** | Integrated to assist with smarter development workflows        |
+| Technology                     | Purpose                                                      |
+| ------------------------------ | ------------------------------------------------------------ |
+| **Swift**                      | Core language for high performance and reliability           |
+| **SwiftUI**                    | Declarative UI framework for modern, elegant interfaces      |
+| **Foundation Models**          | Drives intelligent content generation and chat interactions  |
+| **Combine**                    | Powers reactive programming and state management             |
+| **Xcode 26**                   | Built using Apple’s latest IDE                               |
+| **iOS 26**                     | Targets the newest iOS version for cutting-edge capabilities |
+| **ChatGPT Xcode Intelligence** | Integrated to support rapid, smart development workflows     |
 
 ---
 
 ## 📬 Stay Consistent. Stay Relevant.
 
-**LinkedByte** is your daily companion for thought leadership. Don’t let a blank page stop you — influence your way, one post at a time.
+**LinkedByte** is your daily companion for LinkedIn leadership. Don’t let a blank page stall your influence — post with clarity, creativity, and consistency.
+
+---
+
+Let me know if you want to:
+
+* Add a `TestFlight` or `App Store` badge
+* Include contribution guidelines or a license
+* Add CI badges or Swift/iOS version badges
+
+I'm happy to help with those too.

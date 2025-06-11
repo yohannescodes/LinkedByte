@@ -1,8 +1,8 @@
 //
 //  MessageView.swift
-//  Apple Intelligence Chat
+//  LinkedByte
 //
-//  Created by Pallav Agarwal on 6/9/25.
+//  Edited by Yohannes Haile on 6/11/25.
 //
 
 import SwiftUI

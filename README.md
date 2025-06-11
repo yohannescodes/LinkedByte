@@ -1,7 +1,3 @@
-Here's an improved version of your `README.md` file, now including guidance for **adding screenshots locally** (instead of referencing external links), improved markdown formatting, and enhanced clarity/structure:
-
----
-
 # **LinkedByte — Influence Your Way**
 
 **LinkedByte** is an intelligent iOS application designed to elevate your professional presence on LinkedIn. With a sleek chat interface powered by advanced AI, it generates fresh and engaging post ideas every morning. Timely notifications ensure you never miss the perfect opportunity to share your insights with your network — just before your workday begins.
@@ -26,22 +22,19 @@ Here's an improved version of your `README.md` file, now including guidance for 
 
 ## 📸 Screenshots
 
-To view the app in action, check out these sample screens:
+See LinkedByte in action:
 
-<p float="left">
-  <img src = "![Simulator Screenshot - iPhone 16 Pro Max - 2025-06-11 at 08 17 18](https://github.com/user-attachments/assets/98e650cb-237e-48db-9805-6a18cdf44a86)"
- alt="Chat Interface" width="30%" />
-  <img src="![Simulator Screenshot - iPhone 16 Pro Max - 2025-06-11 at 08 19 05](https://github.com/user-attachments/assets/f65b6cfb-b024-4047-af59-be091224fafe)" alt="Generated Post" width="30%" />
-  <img src="![Simulator Screenshot - iPhone 16 Pro Max - 2025-06-11 at 08 21 05](https://github.com/user-attachments/assets/3936e013-9257-4fef-bdd4-773598314df4)" alt="Settings" width="30%" />
+<p float="left" align="center">
+  <img src="https://github.com/user-attachments/assets/98e650cb-237e-48db-9805-6a18cdf44a86" alt="Chat Interface" width="30%" />
+  <img src="https://github.com/user-attachments/assets/f65b6cfb-b024-4047-af59-be091224fafe" alt="Generated Post" width="30%" />
+  <img src="https://github.com/user-attachments/assets/3936e013-9257-4fef-bdd4-773598314df4" alt="Settings Screen" width="30%" />
 </p>
 
-> 📝 **Note:** Make sure your screenshot assets are placed inside the repository under `Assets/Screenshots/`. Update the paths above if you use a different directory.
+> 📝 **Note:** These images are hosted via GitHub user-attachments. If you later move them into your repo (e.g. `Assets/Screenshots/`), replace the URLs accordingly.
 
 ---
 
 ## 🧰 Technology Stack
-
-LinkedByte is crafted using the latest Apple technologies for a seamless and intelligent experience:
 
 | Technology                     | Purpose                                                        |
 | ------------------------------ | -------------------------------------------------------------- |
@@ -57,8 +50,4 @@ LinkedByte is crafted using the latest Apple technologies for a seamless and int
 
 ## 📬 Stay Consistent. Stay Relevant.
 
-LinkedByte is your daily companion for thought leadership. Don’t let a blank page stop you — influence your way, one post at a time.
-
----
-
-Let me know if you want a badge section (e.g. build status, iOS version support, etc.), or help with publishing to the App Store or TestFlight.
+**LinkedByte** is your daily companion for thought leadership. Don’t let a blank page stop you — influence your way, one post at a time.

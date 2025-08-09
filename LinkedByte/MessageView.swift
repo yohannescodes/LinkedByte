@@ -26,6 +26,8 @@ struct MessageView: View {
     let message: ChatMessage
     let isResponding: Bool
     
+    @State private var copied = false
+    
     var body: some View {
         HStack {
             if message.role == .user {
@@ -45,6 +47,29 @@ struct MessageView: View {
                     } else {
                         Text(message.text)
                             .textSelection(.enabled)
+                        Button(action: {
+                            UIPasteboard.general.string = message.text
+                            withAnimation { copied = true }
+                            DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+                                withAnimation { copied = false }
+                            }
+                        }) {
+                            HStack(spacing: 4) {
+                                Image(systemName: "doc.on.doc")
+                                Text("Copy")
+                            }
+                            .font(.caption)
+                            .padding(6)
+                            .background(Color.gray.opacity(0.10))
+                            .cornerRadius(8)
+                        }
+                        .buttonStyle(.plain)
+                        if copied {
+                            Text("Copied!")
+                                .font(.caption2)
+                                .foregroundColor(.green)
+                                .transition(.opacity)
+                        }
                     }
                 }
                 .padding(.vertical, 8)

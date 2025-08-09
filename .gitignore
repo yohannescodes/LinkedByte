@@ -1,1 +1,13 @@
+# Instructions
 ByteLines.swift
+
+# Mac OS X Finder
+.DS_Store
+
+*.pbxuser
+
+# Xcode
+xcuserdata/
+
+# Cocoapods
+Pods/

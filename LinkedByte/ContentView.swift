@@ -71,14 +71,14 @@ struct ContentView: View {
                         .padding()
                         .padding(.bottom, 90) // Space for floating input field
                     }
-                    .onChange(of: messages.last?.text) { oldValue, newValue in
+                    .onChange(of: messages.last?.text) { _, _ in
                         if let lastMessage = messages.last {
                             withAnimation {
                                 proxy.scrollTo(lastMessage.id, anchor: .bottom)
                             }
                         }
                     }
-                    .onChange(of: showDailySuggestion) { newValue in
+                    .onChange(of: showDailySuggestion) { _, newValue in
                         if newValue, let lastMessage = messages.last {
                             withAnimation {
                                 proxy.scrollTo(lastMessage.id, anchor: .bottom)
